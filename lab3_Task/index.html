@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h3>Apply Now!</h3>
+    <form action="" method="">
+    <fieldset>
+        <legend>Apply Here</legend>
+        <h4>Personal Details</h4>
+        <label for="name">Name:</label>
+        <input type="text" name="name" id="name" required>
+        <br>
+        <label for="nid">National ID:</label>
+        <input type="number" name="nid" id="nid" required>
+        <br>
+        <label for="phn">Phone Number:</label>
+        <input type="number" name="phn" id="phn" required>
+        <br>
+        <label for="email">Email:</label>
+        <input type="text" name="email" required>
+        <br>
+        <label for="DoB">Date of Birth</label>
+        <input type="date" name="DoB" id="">
+        <br>
+        <label>Gender:</label><br>
+        <input type="radio" id="male" name="gender" value="Male" required>
+        <label for="male">Male</label>
+
+        <input type="radio" id="female" name="gender" value="Female">
+        <label for="female">Female</label>
+
+        <input type="radio" id="other" name="gender" value="Other">
+        <label for="other">Other</label>
+
+        <br>
+        <h4>Job Information</h4>
+         <label for="position">Position Applied For:</label><br>
+            <select id="position" name="position">
+                <option value="Software Developer" selected>Software Developer
+                </option>
+                <option value="Web Designer">Web Designer</option>
+                <option value="Network Engineer">Network Engineer</option>
+                <option value="Database Administrator">Database Administrator</option>
+                <option value="IT Support Officer">IT Support Officer</option>
+            </select>
+            <br>
+            <br>
+            <label for="experience">Experience Level:</label><br>
+            <select id="experience" name="experience">
+                <option value="">Fresher</option>
+                <option value="">1-2 Years</option>
+                <option value="">3-5 Years</option>
+                <option value="">More Than 5 Years</option>
+            </select>
+            <br>
+            <br>
+            <h4>Skills</h4>
+             <input type="checkbox" id="html" name="skills" value="HTML">
+            <label for="html">HTML</label><br>
+
+            <input type="checkbox" id="css" name="skills" value="CSS">
+            <label for="css">CSS</label><br>
+
+            <input type="checkbox" id="js" name="skills" value="JavaScript">
+            <label for="js">JavaScript</label><br>
+
+            <input type="checkbox" id="python" name="skills" value="Python">
+            <label for="python">Python</label><br>
+
+            <input type="checkbox" id="sql" name="skills" value="SQL">
+            <label for="sql">SQL</label>
+
+        <h4>Edu Information</h4>
+           <label for="qualification">Highest Qualification:</label><br>
+            <input type="text" id="qualification" name="qualification" required>
+            <br>
+            <br>
+
+            <label for="college">University/College Name:</label><br>
+            <input type="text" id="college" name="college" required>
+            <br>
+            <br>
+
+            <label for="year">Graduation Year:</label><br>
+            <input type="number" id="year" name="year" required>
+
+            <br>
+
+            <h4>Additional Information</h4>
+
+            <label for="resume">Upload Resume/CV:</label>
+            <br>
+            <input type="file" id="resume" name="resume">
+            <br>
+            <br>
+
+            <label for="cover">Cover Letter:</label><br>
+            <textarea id="cover" name="cover" placeholder="Write your cover letter"></textarea>
+            <br>
+            <br>
+
+            <label for="address">Current Address:</label><br>
+            <textarea id="address" name="address"placeholder="Enter your current address" required></textarea>
+
+            <br>
+
+        
+            <button type="submit">Submit</button>
+            <button type="reset">Reset</button>
+
+        
+
+
+
+    </fieldset>
+</form>
+</body>
+</html>
